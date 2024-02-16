@@ -3,42 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPage</title>
-    <link rel="stylesheet" type="text/css" href="./estilos.css">
+    <title>Mi pagina web</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="./reset.css">
 </head>
-<body class="fondo">
+<body>
     <header>
-        <section>
-            <h1>Distrifinca</h1>
-        </section>
-
-        <section>
-            <a href="inicio.html">Inicio</a>
-            <a href="">Contacto</a>
-        </section>
-        <hr />
-        <!--<img src="" alt="">-->
+        <div>   
+            <h1 class="title" id="principal">Mi pagina personal</h1>
+            <hr />
+        </div>
     </header>
 
     <main>
         <section>
-            <h2>Que comprar?</h2>
-            <div>
-                <p class="mitexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque libero id debitis hic, 
-                    magni facilis soluta fugit. Aperiam consectetur provident velit, itaque cum deserunt tempore cumque. Doloribus itaque suscipit eius!</p>
-                <ol>
-                    <li>Lorem</li>
-                    <li>Ipsum</li>
-                    <li>sit</li>
-                </ol>
+            <article>
+                <h2 class="title">Full stack developer</h2>
+                <div>
+                    <p>Mi nombre es fabio Gomez estoy en proceso de aprendizaje para llegar a ser 
+                        full stacker developer, mis principales lenguajes son:
+                    </p>
+            </article>
+            
+            <article>
+                <div id="cards-container">
+                    <div class="cards">
+                        <h4>HTML</h4>
+                        <img src="html.png" class="logo">
+                    </div>
+                    <div class="cards">
+                        <h4>CSS</h4>
+                        <img src="css.png" class="logo">
+                    </div>
+                    <div class="cards">
+                        <h4>JS</h4>
+                        <img src="js.png" class="logo">
+                    </div>
+                </div>
+            </article>
             </div>
+            <hr />
         </section>
     </main>
-    <hr />
+
     <footer>
-        Datos de contacto
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab temporibus magnam magni fugiat asperiores 
-            aut sapiente voluptate? Iure, earum! Ea dignissimos enim beatae, libero doloribus voluptas architecto consequuntur tempore ad!</p>
+        <h3 class="title">Redes Sociales</h3>
+        <p>Mis redes son</p>
+
+        <a href="">Instagram</a>
+        <a href="">Facebook</a>
+        <a href="">TikTok</a>
+
     </footer>
     
 </body>

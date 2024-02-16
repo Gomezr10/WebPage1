@@ -1,7 +1,6 @@
 .title {
     color:blueviolet;
     text-align: center;
-    
 }
 
 body{
@@ -10,22 +9,24 @@ body{
 
 #principal{
     font-size: 2em;
-    border: 2px solid black;
-    width: 40vw;
+    border: 1px solid black;
+    width: 30vw;
     margin: auto;
     border-radius: 10%;
+    margin-top: 8px;
 }
 
 .logo{
     width: 200px;
+    height: 200px;
 }
 
 .cards {
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 6px 1em;
+    padding: 0px 1em 8px 1em;
     border-radius: 2%;
-    
+    text-align: center;
 }
 
 #cards-container{
@@ -40,4 +41,8 @@ body{
 .cards:hover {
     background-color: blueviolet;
     cursor: pointer;
+}
+
+hr{
+    margin-top: 15px;
 }
