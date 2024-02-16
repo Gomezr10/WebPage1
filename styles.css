@@ -1,0 +1,43 @@
+.title {
+    color:blueviolet;
+    text-align: center;
+    
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#principal{
+    font-size: 2em;
+    border: 2px solid black;
+    width: 40vw;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.logo{
+    width: 200px;
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 6px 1em;
+    border-radius: 2%;
+    
+}
+
+#cards-container{
+    display: flex;
+    place-content: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 1.5em; /* Baja un poco de la parte de arriba */
+    justify-content: space-evenly;/*Distancia entre elementos: space-around, space-between, space-evenly*/
+}
+
+.cards:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
